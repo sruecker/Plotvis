@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" hreg="Hills_Style.xsl"?>
+<text>
+    <front>
+    </front>
+    <body>
+       <div type="story"> 
+        <head>Hills Like White Elephants<lb/> by Ernest Hemingway</head>            
+        <p><narration storyPoint="0" type="description"><object reg="hills">The hills</object> across <object type="landform">the valley</object> of <place reg="Ebro">the Ebro</place> were long and white. On this side there was no shade and no trees and <place reg="station">the station</place> was between <object type="transport">two lines of rails</object> in <object type="light">the sun</object>. Close against <place corresp="station">the side of the station</place> there was <object type="shade">the warm shadow</object> of <place corresp="bar">the building</place> and <object reg="curtain">a curtain</object>, made of <object type="material" corresp="curtain">strings of bamboo beads</object>, hung across <object type="passage" corresp="curtain">the open door</object> into <place reg="bar">the bar</place>, to keep out <object type="insect">flies</object>. <action type="sitting" agent="man #girl"><character reg="man">The American</character> and <character reg="girl">the girl</character> with <character sameAs="man">him</character> sat at <object reg="table">a table</object> in the shade, outside <place corresp="bar">the building</place></action>.</narration> <narration storyPoint="3">It was very hot and <object reg="train">the express</object> from <place reg="Barcelona">Barcelona</place> would come in forty minutes. <object sameAs="train">It</object> stopped at <place sameAs="station">this junction</place> for two minutes and went to <place reg="Madrid">Madrid</place>.</narration></p>
+        <p><dialogue storypoint="0" reg="girl">‘What should we drink?’ <character reg="girl">the girl</character> asked.</dialogue> <narration type="description"><character sameAs="girl">She</character> had taken off <object reg="hat" corresp="girl">her hat</object> and put <object sameAs="hat" corresp="girl">it</object> on <object reg="table">the table</object>.</narration></p>
+        <p><dialogue reg="man">‘It’s pretty hot,’ <character reg="man">the man</character> said.</dialogue></p>
+        <p><dialogue reg="girl">‘Let’s drink <object reg="beer">beer</object>.’</dialogue></p>
+        <p><action type="ordering" agent="man"><dialogue reg="man">‘<object reg="beer">Dos cervezas</object>,’ <character reg="man">the man</character> said into <object sameAs="curtain">the curtain</object>.</dialogue></action></p>
+        <p><dialogue reg="woman">‘<object reg="beer">Big ones</object>?’ <character reg="woman">a woman</character> asked from <object type="passage">the doorway</object>.</dialogue></p>
+        <p><dialogue reg="man">‘Yes. <object reg="beer">Two big ones</object>.’</dialogue></p>
+        <p><narration type="description"><action type="serving,looking" agent="woman"><character reg="woman">The woman</character> brought <object corresp="beer">two glasses of beer</object> and <object type="material">two felt pads</object>. <character sameAs="woman">She</character> put <object type="material">the felt pads</object> and <object type="container">the beer glass</object> on <object reg="table">the table</object> and looked at <character reg="man">the man</character> and <character reg="girl">the girl</character></action>. <action type="looking" agent="girl"><character reg="girl">The girl</character> was looking off at <object sameAs="hills">the line of hills</object>.</action> <object sameAs="hills">They</object> were white in <object type="sun">the sun</object> and <object type="landform">the country</object> was brown and dry.</narration></p>
+        <p><action type="comparing" agent="girl"><dialogue reg="girl">‘<object sameAs="hills">They</object> look like <object reg="white_elephants" corresp="hills">white elephants</object>,’ <character sameAs="girl">she</character> said.</dialogue></action></p>
+        <p><dialogue reg="man">‘I’ve never seen <object sameAs="white_elephants">one</object>,’ <character reg="man">the man</character> drank <object reg="beer" corresp="man">his beer</object>.</dialogue></p>
+        <p><action type="antagonizing" agent="girl"><dialogue reg="girl">‘No, <character sameAs="man">you</character> wouldn’t have.’</dialogue></action></p>
+        <p><action type="arguing" agent="man"><dialogue reg="man">‘<character sameAs="man">I</character> might have,’ <character reg="man">the man</character> said. ‘Just because <character sameAs="girl">you</character> say <character sameAs="man">I</character> wouldn’t have doesn’t prove anything.’</dialogue></action></p>
+        <p><narration type="description"><action type="looking" agent="girl"><character reg="girl">The girl</character> looked at <object reg="curtain">the bead curtain</object>.</action></narration> <dialogue reg="girl">‘They’ve painted something on <object sameAs="curtain">it</object>,’ <character sameAs="girl">she</character> said. ‘What does <object type="advertisement" corresp="curtain">it</object> say?’</dialogue></p>
+        <p><dialogue reg="man">‘<object reg="Anis">Anis del Toro</object>. <object type="advertisement" corresp="curtain">It</object>’s <object sameAs="Anis">a drink</object>.’</dialogue></p>
+        <p><action type="requesting" agent="girl"><dialogue reg="girl">‘Could we try <object sameAs="Anis">it</object>?’</dialogue></action></p>
+        <p><action type="ordering" agent="man"><dialogue reg="man"><character reg="man">The man</character> called ‘Listen’ through <object reg="curtain">the curtain</object></dialogue>. <narration type="description"><character reg="woman">The woman</character> came out from <place reg="bar">the bar</place>.</narration></action></p>
+        <p><dialogue reg="woman">‘<object type="currency">Four reales</object>.’</dialogue> <action type="ordering" agent="man"><dialogue reg="man">‘We want <object reg="Anis">two Anis del Toro</object>.’</dialogue></action></p>
+        <p><dialogue reg="woman">‘With <object reg="water">water</object>?’</dialogue></p>
+        <p><action type="translating" agent="man"><dialogue reg="man">‘Do <character sameAs="girl">you</character> want <object sameAs="Anis">it</object> with <object reg="water">water</object>?’</dialogue></action></p>
+        <p><dialogue reg="girl">‘I don’t know,’ <character reg="girl">the girl</character> said. ‘Is <object sameAs="Anis">it</object> good with <object reg="water">water</object>?’</dialogue></p>
+        <p><dialogue reg="man">‘<object sameAs="Anis">It</object>’s all right.’</dialogue></p>
+        <p><dialogue reg="woman">‘You want <object sameAs="Anis">them</object> with <object reg="water">water</object>?’ asked <character reg="woman">the woman</character>.</dialogue></p>
+        <p><dialogue reg="man">‘Yes, with <object reg="water">water</object>.’</dialogue></p>
+        <p><action type="comparing" agent="girl"><dialogue reg="girl">‘<object sameAs="Anis">It</object> tastes like <object type="food" corresp="Anis">liquorice</object>,’ <character reg="girl">the girl</character> said and put <object type="container">the glass</object> down.</dialogue></action></p>
+        <p><dialogue reg="man">‘That’s the way with everything.’</dialogue></p>
+        <p><action type="antagonizing" agent="girl"><dialogue reg="girl">‘Yes,’ said <character reg="girl">the girl</character>. ‘Everything tastes of <object type="food">liquorice</object>. Especially all the things <character sameAs="man">you</character>’ve waited so long for, like <object type="drink">absinthe</object>.’</dialogue></action></p>
+        <p><action type="arguing" agent="man"><dialogue reg="man">‘Oh, cut it out.’</dialogue></action></p>
+        <p><action type="arguing" agent="girl"><dialogue reg="girl">‘<character sameAs="man">You</character> started it,’ <character reg="girl">the girl</character> said. ‘<character sameAs="girl">I</character> was being amused. <character sameAs="girl">I</character> was having a fine time.’</dialogue></action></p>
+        <p><dialogue reg="man">‘Well, let’s try and have a fine time.’</dialogue></p>
+        <p><action type="persuading" agent="girl"><dialogue reg="girl">‘All right. <character sameAs="girl">I</character> was trying. <character sameAs="girl">I</character> said <object type="landmass">the mountains</object> looked like <object reg="white_elephants">white elephants</object>. Wasn’t that bright?’</dialogue></action></p>
+        <p><dialogue reg="man">‘That was bright.’</dialogue></p>
+        <p><dialogue reg="girl">‘<character sameAs="girl">I</character> wanted to try <object sameAs="Anis">this new drink</object>. That’s all we do, isn’t it – look at things and try new drinks?’</dialogue></p>
+        <p><dialogue reg="man">‘<character sameAs="man">I</character> guess so.’</dialogue></p>
+        <p><narration type="description"><action type="looking" agent="girl"><character reg="girl">The girl</character> looked across at <object reg="hills">the hills</object>.</action></narration></p>
+        <p><dialogue reg="girl"><action type="evaluating" agent="girl">‘<object sameAs="hills">They</object>’re <object sameAs="hills">lovely hills</object>,’ <character sameAs="girl">she</character> said.</action> <action type="explaining" agent="girl">‘<object sameAs="hills">They</object> don’t really look like <object reg="white_elephants">white elephants</object>. <character sameAs="girl">I</character> just meant <object corresp="white_elephants">the colouring of their skin</object> through <object type="plant">the trees</object>.’</action></dialogue></p>
+        <p><dialogue storyPoint="0.5" reg="man">‘Should we have another drink?’</dialogue></p>
+        <p><dialogue reg="girl">‘All right.’</dialogue></p>
+        <p><narration type="description">The warm wind blew <object reg="curtain">the bead curtain</object> against <object reg="table">the table</object>.</narration></p>
+        <p><action type="evaluating" agent="man"><dialogue reg="man">‘<object reg="beer">The beer</object>’s nice and cool,’ <character sameAs="man">the man</character> said.</dialogue></action></p>
+        <p><action type="agreeing" agent="girl"><dialogue reg="girl">‘It’s lovely,’ <character sameAs="girl">the girl</character> said.</dialogue></action></p>
+        <p><action storyPoint="1" type="persuading" agent="man"><dialogue reg="man">‘It’s really <object reg="operation">an awfully simple operation</object>, <character reg="girl">Jig</character>,’ <character reg="man">the man</character> said. ‘It’s not really <object reg="operation">an operation</object> at all.’</dialogue></action></p>
+        <p><action type="looking" agent="girl"><narration type="description"><character reg="girl">The girl</character> looked at <object type="landform">the ground</object> <object corresp="table">the table legs</object> rested on.</narration></action></p>
+        <p><action type="persuading" agent="man"><dialogue reg="man">‘<character sameAs="man">I</character> know <character sameAs="girl">you</character> wouldn’t mind <object sameAs="operation">it</object>, <character reg="girl">Jig</character>. <object sameAs="operation">It</object>’s really not anything. <object sameAs="operation">It</object>’s just to let <object corresp="operation">the air</object> in.’</dialogue></action></p>
+        <p><narration type="description"><character reg="girl">The girl</character> did not say anything.</narration></p>
+        <p><action type="persuading" agent="man"><dialogue reg="man">‘<character sameAs="man">I</character>’ll go with <character sameAs="girl">you</character> and <character sameAs="man">I</character>’ll stay with <character sameAs="girl">you</character> all the time. They just let <object corresp="operation">the air</object> in and then it’s all perfectly natural.’</dialogue></action></p>
+        <p><action type="challenging" reg="girl"><dialogue reg="girl">‘Then what will we do afterwards?’</dialogue></action></p>
+        <p><action storyPoint="4" type="evaluating" agent="man"><dialogue reg="man">‘We’ll be fine afterwards. Just like we were before.’</dialogue></action></p>
+        <p><action storyPoint="1" type="challenging" agent="girl"><dialogue reg="girl">‘What makes <character sameAs="man">you</character> think so?’</dialogue></action></p>
+        <p><action type="evaluating" reg="man"><dialogue reg="man">‘That’s <object corresp="operation">the only thing</object> that bothers us. It’s <object corresp="operation">the only thing</object> that’s made us unhappy.’</dialogue></action></p>
+        <p><action type="looking,touching" reg="girl"><narration type="description"><character reg="girl">The girl</character> looked at <object reg="curtain">the bead curtain</object>, put <object type="bodyPart" corresp="girl">her hand</object> out and took hold of <object type="material" corresp="curtain">two of the strings of beads</object>.</narration></action></p>
+        <p><action type="challenging" reg="girl"><dialogue reg="girl">‘And <character sameAs="man">you</character> think then we’ll be all right and be happy.’</dialogue></action></p>
+        <p><action type="persuading" reg="man"><dialogue reg="man">‘<character sameAs="man">I</character> know we will. <character sameAs="girl">You</character> don’t have to be afraid. <character sameAs="man">I</character>’ve known lots of people that have done it.’</dialogue></action></p>
+        <p><action storyPoint="4" type="antagonizing" agent="girl"><dialogue reg="girl">‘So have <character sameAs="girl">I</character>,’ said <character reg="girl">the girl</character>. ‘And afterwards they were all so happy.’</dialogue></action></p>
+        <p><action storyPoint="1" type="hedging" agent="man"><dialogue reg="man">‘Well,’ the man said, ‘if <character sameAs="girl">you</character> don’t want to <character sameAs="girl">you</character> don’t have to. <character sameAs="man">I</character> wouldn’t have <character sameAs="girl">you</character> do it if <character sameAs="girl">you</character> didn’t want to. But <character sameAs="man">I</character> know it’s perfectly simple.’</dialogue></action></p>
+        <p><action type="clarifying" reg="girl"><dialogue reg="girl">‘And <character sameAs="man">you</character> really want to?’</dialogue></action></p>
+        <p><dialogue reg="man"><action type="evaluating" reg="man">‘<character sameAs="man">I</character> think it’s the best thing to do.</action> <action type="hedging" reg="man">But <character sameAs="man">I</character> don’t want <character sameAs="girl">you</character> to do it if <character sameAs="girl">you</character> don’t really want to.’</action></dialogue></p>
+        <p><action type="challenging" reg="girl"><dialogue reg="girl">‘And if <character sameAs="girl">I</character> do it <character sameAs="man">you</character>’ll be happy and things will be like they were and <character sameAs="man">you</character>’ll love <character sameAs="girl">me</character>?’</dialogue></action></p>
+        <p><action type="reassuring" reg="man"><dialogue reg="man">‘<character sameAs="man">I</character> love <character sameAs="girl">you</character> now. <character sameAs="girl">you</character> know <character sameAs="man">I</character> love <character sameAs="girl">you</character>.’</dialogue></action></p>
+        <p><action type="bargaining" reg="girl"><dialogue reg="girl">‘<character sameAs="girl">I</character> know. But if <character sameAs="girl">I</character> do it, then it will be nice again if <character sameAs="girl">I</character> say things are like <object reg="white_elephants">white elephants</object>, and <character sameAs="man">you</character>’ll like it?’</dialogue></action></p>
+        <p><action type="reassuring" reg="man"><dialogue reg="man">‘<character sameAs="man">I</character>’ll love it. <character sameAs="man">I</character> love it now but <character sameAs="man">I</character> just can’t think about it. <character sameAs="girl">you</character> know how <character sameAs="man">I</character> get when <character sameAs="man">I</character> worry.’</dialogue></action></p>
+        <p><action type="bargaining" reg="girl"><dialogue reg="girl">‘If <character sameAs="girl">I</character> do it <character sameAs="man">you</character> won’t ever worry?’</dialogue></action></p>
+        <p><action type="persuading" reg="man"><dialogue reg="man">‘<character sameAs="man">I</character> won’t worry about that because it’s perfectly simple.’</dialogue></action></p>
+        <p><action type="antagonizing" reg="girl"><dialogue reg="girl">‘Then <character sameAs="girl">I</character>’ll do it. Because <character sameAs="girl">I</character> don’t care about <character sameAs="girl">me</character>.’</dialogue></action></p>
+        <p><action type="clarifying" reg="man"><dialogue reg="man">‘What do <character sameAs="girl">you</character> mean?’</dialogue></action></p>
+        <p><action type="antagonizing" reg="girl"><dialogue reg="girl">‘<character sameAs="girl">I</character> don’t care about <character sameAs="girl">me</character>.’</dialogue></action></p>
+        <p><action type="evaluating" reg="man"><dialogue reg="man">‘Well, <character sameAs="man">I</character> care about <character sameAs="girl">you</character>.’</dialogue></action></p>
+        <p><action storyPoint="4" type="antagonizing" agent="girl"><dialogue reg="girl">‘Oh, yes. But <character sameAs="girl">I</character> don’t care about <character sameAs="girl">me</character>. And <character sameAs="girl">I</character>’ll do it and then everything will be fine.’</dialogue></action></p>
+        <p><action storyPoint="1" type="protesting" agent="man"><dialogue reg="man">‘<character sameAs="man">I</character> don’t want <character sameAs="girl">you</character> to do it if <character sameAs="girl">you</character> feel that way.’</dialogue></action></p>
+        <p><narration type="description"><action type="walking" reg="girl"><character reg="girl">The girl</character> stood up and walked to <place corresp="station">the end of the station</place>.</action> <action type="looking" reg="girl">Across, on the other side, were <object type="landform">fields of grain</object> and <object type="plant">trees</object> along <place corresp="Ebro">the banks of the Ebro</place>. Far away, beyond <place sameAs="Ebro">the river</place>, were <object type="landform">mountains</object>. <object type="shade">The shadow of a cloud</object> moved across <object type="landform">the field of grain</object> and <character sameAs="girl">she</character> saw <place sameAs="Ebro">the river</place> through <object type="plant">the trees</object>.</action></narration></p>
+        <p><action type="evaluating" reg="girl"><dialogue reg="girl">‘And we could have all this,’ <character sameAs="girl">she</character> said. ‘And we could have everything and every day we make it more impossible.’</dialogue></action></p>
+        <p><action type="clarifying" reg="man"><dialogue reg="man">‘What did <character sameAs="girl">you</character> say?’</dialogue></action></p>
+        <p><action type="repeating" reg="girl"><dialogue reg="girl">‘<character sameAs="girl">I</character> said we could have everything.’</dialogue></action></p>
+        <p><action type="correcting" reg="man"><dialogue reg="man">‘We can have everything.’</dialogue></action></p>
+        <p><action type="disagreeing" reg="girl"><dialogue reg="girl">‘No, we can’t.’</dialogue></action></p>
+        <p><action type="repeating" reg="man"><dialogue reg="man">‘We can have the whole world.’</dialogue></action></p>
+        <p><action type="disagreeing" reg="girl"><dialogue reg="girl">‘No, we can’t.’</dialogue></action></p>
+        <p><action type="repeating" reg="man"><dialogue reg="man">‘We can go everywhere.’</dialogue></action></p>
+        <p><action type="disagreeing" reg="girl"><dialogue reg="girl">‘No, we can’t. It isn’t ours any more.’</dialogue></action></p>
+        <p><action type="insisting" reg="man"><dialogue reg="man">‘It’s ours.’</dialogue></action></p>
+        <p><action type="challenging" reg="girl"><dialogue reg="girl">‘No, it isn’t. And once they take it away, you never get it back.’</dialogue></action></p>
+        <p><action type="disagreeing" reg="man"><dialogue reg="man">‘But they haven’t taken it away.’</dialogue></action></p>
+        <p><action type="deferring" reg="girl"><dialogue reg="girl">‘We’ll wait and see.’</dialogue></action></p>
+        <p><dialogue reg="man">‘Come on back in the shade,’ he said. <action type="insisting" reg="man">‘<character sameAs="girl">You</character> mustn’t feel that way.’</action></dialogue></p>
+        <p><action type="resisting" reg="girl"><dialogue reg="girl">‘<character sameAs="girl">I</character> don’t feel any way,’ <character reg="girl">the girl</character> said. ‘<character sameAs="girl">I</character> just know things.’</dialogue></action></p>
+        <p><action type="hedging" reg="man"><dialogue reg="man">‘<character sameAs="man">I</character> don’t want <character sameAs="girl">you</character> to do anything that <character sameAs="girl">you</character> don’t want to do -’</dialogue></action></p>
+        <p><dialogue reg="girl"><action type="challenging" reg="girl">‘Nor that isn’t good for <character sameAs="girl">me</character>,’ <character sameAs="girl">she</character> said.</action> <action type="requesting" reg="girl">‘<character sameAs="girl">I</character> know. Could we have <object reg="beer">another beer</object>?’</action></dialogue></p>
+        <p><action type="persuading" reg="man"><dialogue reg="man">‘All right. But <character sameAs="girl">you</character>’ve got to realize – ‘</dialogue></action></p>
+        <p><dialogue reg="girl"><action type="interrupting" reg="girl">‘<character sameAs="girl">I</character> realize,’ <character reg="girl">the girl</character> said.</action> <action type="deferring" reg="girl">‘Can’t we maybe stop talking?’</action></dialogue></p>
+        <p><narration type="description"><action type="sitting" reg="man #girl">They sat down at <object reg="table">the table</object></action> and <action type="looking" reg="girl #man"><character reg="girl">the girl</character> looked across at <object reg="hills">the hills</object> on <object type="landform">the dry side of the valley</object> and <character reg="man">the man</character> looked at <character sameAs="girl">her</character> and at <object reg="table">the table</object>.</action></narration></p>
+        <p><action type="insisting" reg="man"><dialogue reg="man">‘<character sameAs="girl">You</character>’ve got to realize,’ <character sameAs="man">he</character> said, ‘that <character sameAs="man">I</character> don’t want <character sameAs="girl">you</character> to do it if <character sameAs="girl">you</character> don’t want to. <character sameAs="man">I</character>’m perfectly willing to go through with it if it means anything to <character sameAs="girl">you</character>.’</dialogue></action></p>
+        <p><action type="pleading" reg="girl"><dialogue reg="girl">‘Doesn’t it mean anything to <character sameAs="man">you</character>? We could get along.’</dialogue></action></p>
+        <p><action type="rationalizing" reg="man"><dialogue reg="man">‘Of course it does. But <character sameAs="man">I</character> don’t want anybody but <character sameAs="girl">you</character>. <character sameAs="man">I</character> don’t want anyone else. And <character sameAs="man">I</character> know it’s perfectly simple.’</dialogue></action></p>
+        <p><action type="challenging" reg="girl"><dialogue reg="girl">‘Yes, <character sameAs="man">you</character> know it’s perfectly simple.’</dialogue></action></p>
+        <p><action type="challenging" reg="man"><dialogue reg="man">‘It’s all right for <character sameAs="girl">you</character> to say that, but <character sameAs="man">I</character> do know it.’</dialogue></action></p>
+        <p><action type="requesting" reg="girl"><dialogue reg="girl">‘Would <character sameAs="man">you</character> do something for <character sameAs="girl">me</character> now?’</dialogue></action></p>
+        <p><action type="ingratiating" reg="man"><dialogue reg="man">‘<character sameAs="man">I</character>’d do anything for <character sameAs="girl">you</character>.’</dialogue></action></p>
+        <p><action type="pleading" reg="girl"><dialogue reg="girl">‘Would <character sameAs="man">you</character> please please please please please please please stop talking?’</dialogue></action></p>
+        <p><narration type="description"><action type="looking" reg="man"><character sameAs="man">He</character> did not say anything but looked at <object reg="bags">the bags</object> against <object type="structure" corresp="station">the wall</object> of <place reg="station">the station</place>.</action> There were labels on <object sameAs="bags">them</object> from all the hotels where they had spent nights.</narration></p>
+        <p><action type="pleading" reg="man"><dialogue reg="man">‘But <character sameAs="man">I</character> don’t want <character sameAs="girl">you</character> to,’ <character sameAs="man">he</character> said, ‘<character sameAs="man">I</character> don’t care anything about it.’</dialogue></action></p>
+        <p><action type="threatening" reg="girl"><dialogue reg="girl">‘<character sameAs="girl">I</character>’ll scream,’ <character reg="girl">the girl</character> said.</dialogue></action></p>
+        <p><narration storyPoint="2" type="description"><action type="serving" reg="woman"><character reg="woman">The woman</character> came out through <object reg="curtains">the curtains</object> with <object reg="beer">two glasses of beer</object> and put <object sameAs="beer">them</object> down on <object type="material">the damp felt pads</object>.</action></narration> <dialogue reg="woman">‘<object reg="train">The train</object> comes in five minutes,’ <character sameAs="woman">she</character> said.</dialogue></p>
+        <p><action type="clarifying" reg="girl"><dialogue reg="girl">‘What did <character sameAs="woman">you</character> say?’ asked <character reg="girl">the girl</character>.</dialogue></action></p>
+        <p><action type="translating" reg="man"><dialogue reg="man">‘That <object reg="train">the train</object> is coming in five minutes.’</dialogue></action></p>
+        <p><narration type="description"><action type="smiling" reg="girl"><character reg="girl">The girl</character> smiled brightly at <character reg="woman">the woman</character>, to thank <character sameAs="woman">her</character>.</action></narration></p>
+        <p><dialogue reg="man">‘<character sameAs="man">I</character>’d better take <object reg="bags">the bags</object> over to the other side of <place reg="station">the station</place>,’ <character reg="man">the man</character> said.</dialogue> <narration type="description"><action type="smiling" reg="girl"><character sameAs="girl">She</character> smiled at <character sameAs="man">him</character>.</action></narration></p>
+        <p><dialogue reg="girl">‘All right. Then come back and we’ll finish <object reg="beer">the beer</object>.’</dialogue></p>
+        <p><narration type="description"><action type="carrying,walking" reg="man"><character sameAs="man">He</character> picked up <object reg="bags">the two heavy bags</object> and carried <object sameAs="bags">them</object> around <place reg="station">the station</place> to <object type="transport">the other tracks</object>.</action> <action type="looking" reg="man"><character sameAs="man">He</character> looked up <object type="transport">the tracks</object> but could not see <object reg="train">the train</object>.</action> <action type="walking" reg="man">Coming back, <character sameAs="man">he</character> walked through the bar-room, where people waiting for <object reg="train">the train</object> were drinking.</action> <character sameAs="man">He</character> drank <object reg="Anis">an Anis</object> at <place reg="bar">the bar</place> and looked at the people. They were all waiting reasonably for <object reg="train">the train</object>. <character sameAs="man">He</character> went out through <object reg="curtain">the bead curtain</object>. <action type="smiling" reg="girl"><character sameAs="girl">She</character> was sitting at <object reg="table">the table</object> and smiled at <character sameAs="man">him</character>.</action></narration></p>
+        <p><action type="asking" reg="man"><dialogue reg="man">‘Do <character sameAs="girl">you</character> feel better?’ <character sameAs="man">he</character> asked.</dialogue></action></p>
+        <p><dialogue reg="girl"><action type="insisting,reassuring" reg="girl">‘<character sameAs="girl">I</character> feel fine,’ <character sameAs="girl">she</character> said. ‘There’s nothing wrong with <character sameAs="girl">me</character>.</action> <action type="repeating" reg="girl"><character sameAs="girl">I</character> feel fine.’</action></dialogue></p>
+       </div>
+    </body>        
+       <div type="editorial">
+           <interpGrp>
+               <interp xml:id="operation">Marks off the passage where the two argue about the operation, and allows for the highlighting of additional references to this issue.</interp>
+               <interp xml:id="language">Denotes communication problems, such as translation or misunderstanding.</interp>
+           </interpGrp>
+           <listTime>
+               <time xml:id="0">The initial description of the scene, forty minutes before the train from Barcelona will arrive.</time>
+               <time xml:id="0.5">Second drink.</time>
+               <time xml:id="2">Third drink.  Train arriving in five minutes.</time>
+               <time xml:id="3">The presaged arrival of the train from Barcelona.</time>
+               <time xml:id="4">Afterwards.</time>
+           </listTime>
+           <listPerson>
+               <person xml:id="girl"></person>
+               <person xml:id="man"></person>
+               <person xml:id="woman"></person>
+           </listPerson>
+           <listPlace>
+               <place type="city" xml:id="Barcelona">
+                   <placeName>Barcelona</placeName>
+                   <country>Spain</country>
+               </place>
+               <place type="city" xml:id="Madrid">
+                   <placeName>Madrid</placeName>
+                   <country>Spain</country>
+               </place>
+               <place type="river" xml:id="Ebro">
+                   <placeName>The Ebro</placeName>
+                   <country>Spain</country>
+               </place>
+               <place type="building" xml:id="bar">
+                   <placeName>the bar</placeName>
+                   <country>Spain</country>
+               </place>
+               <place type="building" xml:id="station">
+                   <placeName>the station</placeName>
+                   <country>Spain</country>
+               </place>
+           </listPlace>
+           <listObject>
+               <object type="drink" xml:id="Anis">
+                   <objectName>Anis del Toro</objectName>
+               </object>
+               <object type="container" xml:id="bags">
+                   <objectName>the bags</objectName>
+               </object>
+               <object type="drink" xml:id="beer">
+                   <objectName>beer</objectName>
+               </object>
+               <object type="barrier" xml:id="curtain">
+                   <objectName>the curtain</objectName>
+               </object>
+               <object type="clothing" xml:id="hat">
+                   <objectName>the girl's hat</objectName>
+               </object>
+               <object type="landform" xml:id="hills">
+                   <objectName>hills</objectName>
+               </object>
+               <object type="medical_procedure" xml:id="operation">
+                   <objectName>operation</objectName>
+               </object>
+               <object type="furniture" xml:id="table">
+                   <objectName>the table</objectName>"
+               </object>
+               <object type="transportation" xml:id="train">
+                   <objectName>the train</objectName>
+               </object>
+               <object type="drink" xml:id="water">
+                   <objectName>water</objectName>
+               </object>
+               <object type="analogy" xml:id="white_elephants">
+                   <objectName>white elephants</objectName>
+               </object>
+           </listObject>
+       </div>
+    <back>
+    </back>
+</text>

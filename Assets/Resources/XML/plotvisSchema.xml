@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="text">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="head">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title"/>
+                            <xs:element name="author"/>
+                            <xs:element name="resp">
+                                <xs:complexType>
+                                    <xs:attribute name="date" type="xs:string"/>
+                                    <xs:attribute name="name" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element maxOccurs="unbounded" name="section">
+                    <xs:complexType mixed="true">
+                        <xs:sequence maxOccurs="unbounded">
+                            <xs:element name="p">
+                                <xs:complexType mixed="true">
+                                    <xs:choice maxOccurs="unbounded" minOccurs="0">
+                                        <xs:element name="narration" maxOccurs="unbounded"
+                                            minOccurs="0">
+                                            <xs:complexType mixed="true">
+                                                <xs:choice maxOccurs="unbounded" minOccurs="0">
+                                                  <xs:element name="object" maxOccurs="unbounded"
+                                                  minOccurs="0">
+                                                  <xs:complexType mixed="true">
+                                                  <xs:choice maxOccurs="unbounded" minOccurs="0">
+                                                  <xs:element name="character" maxOccurs="unbounded"
+                                                  minOccurs="0">
+                                                  <xs:complexType mixed="true">
+                                                  <xs:attribute name="reg" type="xs:string"/>
+                                                  <xs:attribute name="class" type="xs:string"/>
+                                                  <xs:attribute name="type" type="xs:string"/>
+                                                  <xs:attribute name="keywords" type="xs:string"/>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                  </xs:choice>
+                                                  <xs:attribute name="reg" type="xs:string"/>
+                                                  <xs:attribute name="class" type="xs:string"/>
+                                                  <xs:attribute name="keywords" type="xs:string"/>
+                                                  <xs:attribute name="type" type="xs:string"/>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                  <xs:element name="character" maxOccurs="unbounded"
+                                                  minOccurs="0">
+                                                  <xs:complexType mixed="true">
+                                                  <xs:choice maxOccurs="unbounded" minOccurs="0">
+                                                  <xs:element maxOccurs="unbounded" minOccurs="0"
+                                                  name="object">
+                                                  <xs:complexType mixed="true">
+                                                  <xs:attribute name="reg" type="xs:string"/>
+                                                  <xs:attribute name="class" type="xs:string"/>
+                                                  <xs:attribute name="keywords" type="xs:string"/>
+                                                  <xs:attribute name="type" type="xs:string"/>
+                                                  <xs:attribute name="character" type="xs:string"/>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                  </xs:choice>
+                                                  <xs:attribute name="reg" type="xs:string"/>
+                                                  <xs:attribute name="keywords" type="xs:string"/>
+                                                  <xs:attribute name="type" type="xs:string"/>
+                                                  <xs:attribute name="class" type="xs:string"/>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                </xs:choice>
+                                                <xs:attribute name="storyPoint" type="xs:decimal"/>
+                                                <xs:attribute name="keywords" type="xs:string"
+                                                  use="optional"/>
+                                                <xs:attribute name="location" type="xs:string"
+                                                  use="optional"/>
+                                                <xs:attribute name="narrator" type="xs:string"
+                                                  use="optional"/>
+                                                <xs:attribute name="reporter" type="xs:string"
+                                                  use="optional"/>
+                                                <xs:attribute name="type" type="xs:string"
+                                                  use="optional"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="dialogue" maxOccurs="unbounded"
+                                            minOccurs="0">
+                                            <xs:complexType mixed="true">
+                                                <xs:choice maxOccurs="unbounded" minOccurs="0">
+                                                  <xs:element name="object" maxOccurs="unbounded"
+                                                  minOccurs="0">
+                                                  <xs:complexType mixed="true">
+                                                  <xs:attribute name="reg" type="xs:string"/>
+                                                  <xs:attribute name="class" type="xs:string"/>
+                                                  <xs:attribute name="keywords" type="xs:string"/>
+                                                  <xs:attribute name="type" type="xs:string"/>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                  <xs:element name="character" maxOccurs="unbounded"
+                                                  minOccurs="0">
+                                                  <xs:complexType mixed="true">
+                                                  <xs:choice maxOccurs="unbounded" minOccurs="0">
+                                                  <xs:element maxOccurs="unbounded" minOccurs="0"
+                                                  name="object">
+                                                  <xs:complexType mixed="true">
+                                                  <xs:attribute name="reg" type="xs:string"/>
+                                                  <xs:attribute name="class" type="xs:string"/>
+                                                  <xs:attribute name="keywords" type="xs:string"/>
+                                                  <xs:attribute name="type" type="xs:string"/>
+                                                  <xs:attribute name="character" type="xs:string"/>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                  </xs:choice>
+                                                  <xs:attribute name="reg" type="xs:string"/>
+                                                  <xs:attribute name="class" type="xs:string"/>
+                                                  <xs:attribute name="type" type="xs:string"/>
+                                                  <xs:attribute name="keywords" type="xs:string"/>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                </xs:choice>
+                                                <xs:attribute name="storyPoint" type="xs:decimal"/>
+                                                <xs:attribute name="keywords" type="xs:string"/>
+                                                <xs:attribute name="location" type="xs:string"/>
+                                                <xs:attribute name="speaker" type="xs:string"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="action" maxOccurs="unbounded"
+                                            minOccurs="0">
+                                            <xs:complexType mixed="true">
+                                                <xs:choice maxOccurs="unbounded" minOccurs="0">
+                                                  <xs:element name="object" maxOccurs="unbounded"
+                                                  minOccurs="0">
+                                                  <xs:complexType mixed="true">
+                                                  <xs:choice maxOccurs="unbounded" minOccurs="0">
+                                                  <xs:element name="character" maxOccurs="unbounded"
+                                                  minOccurs="0">
+                                                  <xs:complexType mixed="true">
+                                                  <xs:attribute name="reg" type="xs:string"/>
+                                                  <xs:attribute name="class" type="xs:string"/>
+                                                  <xs:attribute name="type" type="xs:string"/>
+                                                  <xs:attribute name="keywords" type="xs:string"/>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                  </xs:choice>
+                                                  <xs:attribute name="reg" type="xs:string"/>
+                                                  <xs:attribute name="class" type="xs:string"/>
+                                                  <xs:attribute name="keywords" type="xs:string"/>
+                                                  <xs:attribute name="type" type="xs:string"/>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                  <xs:element name="character" maxOccurs="unbounded"
+                                                  minOccurs="0">
+                                                  <xs:complexType mixed="true">
+                                                  <xs:attribute name="reg" type="xs:string"/>
+                                                  <xs:attribute name="class" type="xs:string"/>
+                                                  <xs:attribute name="type" type="xs:string"/>
+                                                  <xs:attribute name="keywords" type="xs:string"/>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                </xs:choice>
+                                                <xs:attribute name="storyPoint" type="xs:decimal"/>
+                                                <xs:attribute name="keywords" type="xs:string"/>
+                                                <xs:attribute name="location" type="xs:string"/>
+                                                <xs:attribute name="patient" type="xs:string"/>
+                                                <xs:attribute name="type" type="xs:string"/>
+                                                <xs:attribute name="agent" type="xs:string"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="thought" maxOccurs="unbounded"
+                                            minOccurs="0">
+                                            <xs:complexType mixed="true">
+                                                <xs:choice maxOccurs="unbounded" minOccurs="0">
+                                                  <xs:element name="character" maxOccurs="unbounded"
+                                                  minOccurs="0">
+                                                  <xs:complexType mixed="true">
+                                                  <xs:attribute name="reg" type="xs:string"/>
+                                                  <xs:attribute name="keywords" type="xs:string"/>
+                                                  <xs:attribute name="type" type="xs:string"/>
+                                                  <xs:attribute name="class" type="xs:string"/>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                  <xs:element name="object" maxOccurs="unbounded"
+                                                  minOccurs="0">
+                                                  <xs:complexType mixed="true">
+                                                  <xs:attribute name="reg" type="xs:string"/>
+                                                  <xs:attribute name="class" type="xs:string"/>
+                                                  <xs:attribute name="keywords" type="xs:string"/>
+                                                  <xs:attribute name="type" type="xs:string"/>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                </xs:choice>
+                                                <xs:attribute name="storyPoint" type="xs:decimal"/>
+                                                <xs:attribute name="keywords"/>
+                                                <xs:attribute name="location"/>
+                                                <xs:attribute name="thinker"/>
+                                                <xs:attribute name="type"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="location" type="xs:string"/>
+                        <xs:attribute name="number" type="xs:string"/>
+                        <xs:attribute name="time" type="xs:string"/>
+                        <xs:attribute name="year" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
